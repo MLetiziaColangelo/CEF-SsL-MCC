@@ -15,7 +15,7 @@ This program is compatible with all operating systems and requires Python 3.10 o
 To install this project, follow these steps:
 1. Clone the repository: 
 ```
-git clone https://github.com/yourusername/project.git
+git clone https://github.com/MLetiziaColangelo/CEF-SsL-MCC.git
 ```
 2. Navigate to the project directory: 
 ```
@@ -30,8 +30,8 @@ pip install numpy scipy scikit-learn scikit-image imbalanced-learn pandas opencv
 Before executing the framework, configure it by specifying parameters:
 
 - classification_type: Specify direct multi-class classification or multiple binary classifiers using `--classification` with the following options `multiclass` or `binary`.
--  classifier_name: Choose a classifier: `--classifier`` with `all`, `svm`, `knn`, `rf`, or `gb`.
-- feature_name: Select the feature extraction method: `--features`` with `lbp`, `hog`, `glcm`, `combined` or `raw`.
+-  classifier_name: Choose a classifier: `--classifier` with `all`, `svm`, `knn`, `rf`, or `gb`.
+- feature_name: Select the feature extraction method: `--features` with `lbp`, `hog`, `glcm`, `combined` or `raw`.
 
 To use this project use command-line options to set these parameters:
 
